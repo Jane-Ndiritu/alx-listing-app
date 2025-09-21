@@ -10,6 +10,10 @@ interface CardProps {
   onBook?: () => void;
   onDetails?: () => void;
 }
+  location: string;
+  onBook?: () => void;
+  onDetails?: () => void;
+}
 
 const Card: React.FC<CardProps> = ({
   imageUrl,
